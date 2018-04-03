@@ -29,3 +29,12 @@ print "4.\@coins = @coins\n";
 #shift(@coins)
 shift(@coins);
 print "3.\@coins = @coins\n";
+
+
+#replacing array elements
+
+@nums=(1,2,3,4,5,6,7,8);
+print "Before-@nums\n";
+#Specify array to modify, starting address, number of items to modify, the items to replace (in order
+splice(@nums,3,2,4,6);
+print"After- @nums\n";
